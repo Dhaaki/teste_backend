@@ -137,16 +137,27 @@ Não enviar ao ERP
 
 🔄 Transformação de Dados (Mapping)
 Marketplace	ERP	Regra
+
 order.id	codigo_externo	Direto
+
 created_at	data_pedido	ISO → DD/MM/YYYY
+
 customer.name	razao_social	Uppercase
+
 document.number	cpf_cnpj	Remover máscara
+
 phone	telefone	Remover símbolos
+
 zip_code	cep	Remover hífen
+
 country	pais	BR → BRASIL
+
 payment.method	forma	Enum
+
 payment.paid	status	true → PAGO
+
 items[].quantity * unit_price	valor_total	Cálculo
+
 📤 Payload Enviado para o ERP (Formato Esperado)
 {
   "pedido": {
