@@ -10,7 +10,7 @@ Node.js + TypeScript
 
 Express ou Fastify
 
-MongoDB ou Redis
+MongoDB ou MySQL/Postgress
 
 🚀 Execução Local
 npm install
