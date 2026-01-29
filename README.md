@@ -153,8 +153,8 @@ items[].quantity * unit_price	valor_total	Cálculo
     "codigo_externo": "MLB-987654321",
     "data_pedido": "22/01/2026",
     "cliente": {
-      "razao_social": "GUILHERME SCHNEIDER",
-      "email": "gui.schneider@email.com",
+      "razao_social": "DUDA COAN",
+      "email": "coan.eduarda@email.com",
       "cpf_cnpj": "12345678909",
       "telefone": "47999998888"
     },
